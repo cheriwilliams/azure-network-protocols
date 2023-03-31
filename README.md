@@ -24,6 +24,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Filter ICMP traffic in Wireshark 
 - Observe ICMP traffic between Ubuntu Server and Windows 10
+- Disable incoming traffic with Network Security Group
 - Observe SSH
 - Observe DHCP Traffic
 - DNS Traffic 
@@ -40,18 +41,18 @@ The above image shows traffic being pinged from Windows 10 VM to Ubuntu VM. The 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/8uRELl2.jpg/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Incoming traffic has been disabled from the firewall in Azure. Network Security Group was utilized and the security rule was applied to deny traffic and the ping request stopped. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/JC9Alzl.jpg/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In the above image, a significant amount of SSH traffic has spammed in Wireshark from the pwd command being entered into the command line. 
 </p>
 <br />
 
