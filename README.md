@@ -57,6 +57,14 @@ In the above image, a significant amount of SSH traffic has spammed in Wireshark
 <br />
 
 <p>
+<img src=https://i.imgur.com/jAShtVx.jpg/>
+</p>
+<p>
+While using the command line ipconfig /renew, a new IP address can be issued for the VM, and a small amount of DHCP traffic was generated from that command. 
+</p>
+<br />
+
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
