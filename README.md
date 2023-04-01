@@ -65,10 +65,10 @@ While using the command line ipconfig /renew, a new IP address can be issued for
 <br />
 
 <p>
-<img src=https://i.imgur.com/nvYDLdc.jpg/>
+<img src=https://i.imgur.com/KmGufGo.jpg/>
 </p>
 <p>
-The above image shows the command nslookup being prompted to find the IP addresss for www.google.com, DNS traffic is then generated in Wireshark from nslookup. 
+The above image shows the command nslookup being prompted to find the IP addresss for www.google.com, DNS (Domain Name System) traffic is then generated in Wireshark from nslookup. 
 </p>
 <br />
 
@@ -76,6 +76,6 @@ The above image shows the command nslookup being prompted to find the IP address
 <img src=https://i.imgur.com/BoKESXn.jpg/>
 </p>
 <p>
-RDP (Remote Desktop Protocol) traffic 
+RDP (Remote Desktop Protocol) traffic was constantly coming through Wireshark because of the active connection of the Windows VM. 
 </p>
 <br />
