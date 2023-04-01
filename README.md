@@ -36,7 +36,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src=https://i.imgur.com/evLjJoU.jpg/>
 </p>
 <p>
-The above image shows traffic being pinged from Windows 10 VM to Ubuntu VM. The traffic between the two machines was successful showing 4 packets sent and 4 packets received. 
+The above image shows traffic being pinged from Windows 10 Virtual Machine to Ubuntu Virtual Machine. The traffic between the two machines was successful showing 4 packets sent and 4 packets received. 
 </p>
 <br />
 
@@ -52,7 +52,7 @@ Incoming traffic has been disabled from the firewall in Azure. Network Security 
 <img src=https://i.imgur.com/JC9Alzl.jpg/>
 </p>
 <p>
-In the above image, a significant amount of SSH traffic has spammed in Wireshark from the pwd command being entered into the command line. 
+In the above image, a significant amount of SSH (Secure Shell) traffic has spammed in Wireshark from the pwd command being entered into the command line. 
 </p>
 <br />
 
@@ -60,22 +60,22 @@ In the above image, a significant amount of SSH traffic has spammed in Wireshark
 <img src=https://i.imgur.com/jAShtVx.jpg/>
 </p>
 <p>
-While using the command line ipconfig /renew, a new IP address can be issued for the VM, and a small amount of DHCP traffic was generated from that command. 
+While using the command line ipconfig /renew, a new IP address can be issued for the VM. A small amount of DHCP (Dynamic Host Configuration Protocol) traffic was generated from that command. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/nvYDLdc.jpg/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The above image shows the command nslookup being prompted to find the IP addresss for www.google.com, DNS traffic is then generated in Wireshark from nslookup. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/BoKESXn.jpg/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+RDP (Remote Desktop Protocol) traffic 
 </p>
 <br />
