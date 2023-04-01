@@ -27,8 +27,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Disable incoming traffic with Network Security Group
 - Filter SSH and observe traffic 
 - Filter DHCP and observe traffic
-- Filter DNS traffic  
-- Filter RDP 
+- Filter DNS and observe traffic  
+- Filter RDP and observe traffic 
 
 <h2>Actions and Observations</h2>
 
@@ -60,7 +60,7 @@ In the above image, a significant amount of SSH (Secure Shell) traffic has spamm
 <img src=https://i.imgur.com/jAShtVx.jpg/>
 </p>
 <p>
-While using the command line ipconfig /renew, a new IP address can be issued for the VM. A small amount of DHCP (Dynamic Host Configuration Protocol) traffic was generated from that command. 
+While using the command ipconfig /renew, a new IP address can be issued for the VM. A small amount of DHCP (Dynamic Host Configuration Protocol) traffic was generated from that command. 
 </p>
 <br />
 
@@ -76,6 +76,6 @@ The above image shows the command nslookup being prompted to find the IP address
 <img src=https://i.imgur.com/BoKESXn.jpg/>
 </p>
 <p>
-RDP (Remote Desktop Protocol) traffic was constantly coming through Wireshark because of the active connection of the Windows VM. 
+RDP (Remote Desktop Protocol) traffic was constantly coming through Wireshark because of the active running connection of the Windows VM. 
 </p>
 <br />
