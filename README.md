@@ -25,10 +25,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Filter ICMP traffic in Wireshark 
 - Observe ICMP traffic between Ubuntu Server and Windows 10
 - Disable incoming traffic with Network Security Group
-- Observe SSH
-- Observe DHCP Traffic
-- DNS Traffic 
-- RDP Traffic 
+- Filter SSH and observe traffic 
+- Filter DHCP and observe traffic
+- Filter DNS traffic  
+- Filter RDP 
 
 <h2>Actions and Observations</h2>
 
