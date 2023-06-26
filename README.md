@@ -33,7 +33,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p>
-<img src=https://i.imgur.com/evLjJoU.jpg/>
+<img src="https://i.imgur.com/YWFc6f5.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 The above image shows traffic being pinged from Windows 10 Virtual Machine to Ubuntu Virtual Machine. The traffic between the two machines was successful showing 4 packets sent and 4 packets received. 
@@ -41,7 +41,7 @@ The above image shows traffic being pinged from Windows 10 Virtual Machine to Ub
 <br />
 
 <p>
-<img src=https://i.imgur.com/8uRELl2.jpg/>
+<img src="https://i.imgur.com/HLbKOPX.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Incoming traffic has been disabled from the firewall in Azure. Network Security Group was utilized and the security rule was applied to deny traffic and the ping request stopped. 
@@ -49,7 +49,7 @@ Incoming traffic has been disabled from the firewall in Azure. Network Security 
 <br />
 
 <p>
-<img src=https://i.imgur.com/JC9Alzl.jpg/>
+<img src="https://i.imgur.com/Oce0ZY2.jpg" height="80%" width="80%" alt=Disk Sanitization Steps"/>
 </p>
 <p>
 In the above image, a significant amount of SSH (Secure Shell) traffic has spammed in Wireshark from the pwd command being entered into the command line. 
