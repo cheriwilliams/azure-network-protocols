@@ -49,7 +49,7 @@ Incoming traffic has been disabled from the firewall in Azure. Network Security 
 <br />
 
 <p>
-<img src="https://i.imgur.com/Oce0ZY2.jpg" height="80%" width="80%" alt=Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Oce0ZY2.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 In the above image, a significant amount of SSH (Secure Shell) traffic has spammed in Wireshark from the pwd command being entered into the command line. 
@@ -57,15 +57,15 @@ In the above image, a significant amount of SSH (Secure Shell) traffic has spamm
 <br />
 
 <p>
-<img src=https://i.imgur.com/jAShtVx.jpg/>
+<img src="https://i.imgur.com/q7eomXT.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-While using the command ipconfig /renew, a new IP address can be issued for the VM. A small amount of DHCP (Dynamic Host Configuration Protocol) traffic was generated from that command. 
+While using the command ipconfig /renew, an IP address lease is renegotiated from the DHCP server to the VM. A small amount of DHCP (Dynamic Host Configuration Protocol) traffic was generated from that command. 
 </p>
 <br />
 
 <p>
-<img src=https://i.imgur.com/KmGufGo.jpg/>
+<img src="https://i.imgur.com/KmGufGo.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 The above image shows the command nslookup being prompted to find the IP addresss for www.google.com, DNS (Domain Name System) traffic is then generated in Wireshark from nslookup. 
@@ -73,9 +73,9 @@ The above image shows the command nslookup being prompted to find the IP address
 <br />
 
 <p>
-<img src=https://i.imgur.com/BoKESXn.jpg/>
+<img src="https://i.imgur.com/DimpbiF.jpg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-RDP (Remote Desktop Protocol) traffic was constantly coming through Wireshark because of the active running connection of the Windows VM. 
+RDP (Remote Desktop Protocol) traffic constantly coming through Wireshark because of the active running connection of the Windows VM. 
 </p>
 <br />
